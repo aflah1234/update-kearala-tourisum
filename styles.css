@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+
+}
+.logo{
+    height: 50px;
+    width: 100px;
+}
+.navbar a{ 
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 8px 17px;
+}
+
+.button{
+    padding: 5px;
+    font-size: 15px;
+    background-color: hwb(62 3% 83%);
+    color: rgb(61, 57, 6);
+    border-color: rgb(188, 188, 188);
+    border-style: solid;
+    border-radius: 10px;
+}
+.map{
+  
+   margin-left: 5px;
+}
+.cc{
+    margin-left: 5px;
+}
+.hh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    color: rgb(248, 248, 248);
+    font-size: 40px;
+    text-decoration: none;
+    
+
+}
+.aa a{
+    font-size: 18px;
+    color: rgb(165, 136, 5);
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 8px 17px;
+    border: 2px;
+    border-color: rgb(201, 192, 192);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(6, 38, 38);
+}
+.aa{
+    margin: 30px;
+}
+.style{
+    text-decoration: none;
+}
+
+.image{
+   object-fit: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.top-destinations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+   
+    
+}
+
+.top-destinations h1 {
+    font-size: 2em;
+    margin-bottom:20px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+
+.destination-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.destination-card img {
+    width: 200%;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.destination-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+button.see-more{
+    margin-top: 70px;
+}
+
+.see-more:hover {
+    background: #5f665f;
+}
+.map{
+   border-style: solid;
+   border-color: yellowgreen;
+   box-sizing: border-box;
+   width: 300px;
+   height: auto;
+}
+.cc{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: large;
+}
+.dd{
+    text-align:justify ;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 25px;
+    padding: 1%;
+   text-justify: inter-word;
+   margin-top: 2%;
+}
+
+.woow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid rgb(4, 8, 4);
+    display: inline-block;
+}
+
+.districts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+
+}
+
+.district {
+    text-align: center;
+    margin: 10px;
+}
+
+.district img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.district p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.see-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.submitted{
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-top: 70px;
+}
+.submitted h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.submitted form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.submitted input,
+.submitted select,
+.submitted button{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.submitted button{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+     color: #93987d;
+}nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+#description, #gallery, #food-spots {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.line {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-container img {
+    width: calc(50% - 10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#food-spots ul {
+    list-style: non;
+    padding: 0;
+}
+
+#food-spots li {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #40403c;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+        padding: 1rem;
+        border-bottom: 1px solid #857f7f;
+    }
+
+    .top destination {
+        display: flex;
+        justify-content: space-between;
+    }
+}
